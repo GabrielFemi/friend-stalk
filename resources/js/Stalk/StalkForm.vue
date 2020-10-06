@@ -36,7 +36,7 @@ name: "StalkForm",
     },
     methods: {
     submit() {
-        //
+        this.$inertia.post('/stalk', this.form)
     }
     }
 

@@ -23,3 +23,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::middleware('auth:sanctum')->resource('stalk', StalkController::class);
+
+Route::group(['middleware' => 'auth:sanctum'], function () {
+    Route::get('stalk', [StalkController::class, 'index']);
+    Route::post('stalk', [StalkController::class, 'show']);
+});

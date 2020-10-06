@@ -40,12 +40,12 @@ class StalkController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return void
      */
-    public function show($id)
+    public function show(Request $request)
     {
-        //
+        return inertia()->render('Stalk/Show');
     }
 
     /**
