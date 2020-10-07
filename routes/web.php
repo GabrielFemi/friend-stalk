@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\StalkController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,10 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia\Inertia::render('Dashboard');
 })->name('dashboard');
+
+Route::middleware('auth:sanctum')->resource('stalk', StalkController::class);
+
+Route::group(['middleware' => 'auth:sanctum'], function () {
+    Route::get('stalk', [StalkController::class, 'index']);
+    Route::post('stalk', [StalkController::class, 'show']);
+});

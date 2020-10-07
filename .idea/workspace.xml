@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af6271f-81bf-4c11-8887-39d9944cc198" name="Default Changelist" comment="" />
+    <list default="true" id="0af6271f-81bf-4c11-8887-39d9944cc198" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Stalk/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Stalk/Show.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Stalk/StalkForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Stalk/StalkForm.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,16 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -145,11 +163,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.StalkForm.vue">
+    <configuration name="StalkForm.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/friend-stalk/resources/js/Stalk/StalkForm.vue" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.StalkForm.vue" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -160,7 +186,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601868620181</updated>
       <workItem from="1601868621551" duration="1020000" />
-      <workItem from="1601869853887" duration="344000" />
+      <workItem from="1601869853887" duration="15071000" />
+      <workItem from="1602037933048" duration="3188000" />
     </task>
     <servers />
   </component>
@@ -168,9 +195,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1601870178491">
+    <state x="516" y="134" key="FileChooserDialogImpl" timestamp="1601989617491">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.0.1366.732@0.0.1366.732" timestamp="1601870178491" />
+    <state x="516" y="134" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1601989617491" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1601989566320">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1366.732@0.0.1366.732" timestamp="1601989566320" />
+    <state x="454" y="237" width="700" height="418" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1601982100314">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="454" y="237" width="700" height="418" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.732@0.0.1366.732" timestamp="1601982100314" />
+    <state x="332" y="85" width="700" height="530" key="recent.locations.popup" timestamp="1601959789494">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="332" y="85" width="700" height="530" key="recent.locations.popup/0.0.1366.732@0.0.1366.732" timestamp="1601959789494" />
+    <state x="347" y="160" key="run.anything.popup" timestamp="1601984036466">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="347" y="160" key="run.anything.popup/0.0.1366.732@0.0.1366.732" timestamp="1601984036466" />
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1602044634864">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.0.1366.732@0.0.1366.732" timestamp="1602044634864" />
   </component>
 </project>
