@@ -8,8 +8,10 @@
 
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <vcl-facebook></vcl-facebook>
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+                    <div class="p-4">
+                        <vcl-facebook />
+                    </div>
                 </div>
             </div>
         </div>
@@ -19,13 +21,16 @@
 <script>
 import AppLayout from './../../Layouts/AppLayout'
 import Welcome from './../../Jetstream/Welcome'
-import VclFacebook from 'vue-content-loading';
+import VclFacebook from 'vue-content-loading'
 
 export default {
     components: {
         AppLayout,
         Welcome,
-        VclFacebook,
+        VclFacebook
     },
+    mounted() {
+        alert(this.$page.stalkee)
+    }
 }
 </script>

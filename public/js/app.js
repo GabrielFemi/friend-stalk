@@ -4316,6 +4316,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 
@@ -4324,6 +4326,9 @@ __webpack_require__.r(__webpack_exports__);
     AppLayout: _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__["default"],
     Welcome: _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__["default"],
     VclFacebook: vue_content_loading__WEBPACK_IMPORTED_MODULE_2___default.a
+  },
+  mounted: function mounted() {
+    alert(this.$page.stalkee);
   }
 });
 
@@ -4338,6 +4343,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_content_loading__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-content-loading */ "./node_modules/vue-content-loading/dist/vuecontentloading.js");
+/* harmony import */ var vue_content_loading__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_content_loading__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -4364,10 +4371,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "StalkForm",
   data: function data() {
     return {
+      loading: false,
       form: {
         stalkee_name: null
       }
@@ -4375,8 +4391,13 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     submit: function submit() {
-      this.$inertia.post('/stalk', this.form);
+      this.$inertia.post('/stalk', this.form).then(function () {
+        this.loading = true;
+      });
     }
+  },
+  components: {
+    VclFacebook: vue_content_loading__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
 
@@ -28005,18 +28026,13 @@ var render = function() {
     [
       _vm._v(" "),
       _c("div", { staticClass: "py-12" }, [
-        _c(
-          "div",
-          { staticClass: "max-w-7xl mx-auto sm:px-6 lg:px-8" },
-          [
-            _c("vcl-facebook"),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "bg-white overflow-hidden shadow-xl sm:rounded-lg"
-            })
-          ],
-          1
-        )
+        _c("div", { staticClass: "max-w-7xl mx-auto sm:px-6 lg:px-8" }, [
+          _c(
+            "div",
+            { staticClass: "bg-white overflow-hidden shadow-xl sm:rounded-lg" },
+            [_c("div", { staticClass: "p-4" }, [_c("vcl-facebook")], 1)]
+          )
+        ])
       ])
     ]
   )
@@ -28044,6 +28060,21 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
+    _vm.loading === true
+      ? _c(
+          "div",
+          { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
+          [
+            _c(
+              "div",
+              { staticClass: "mt-6 text-gray-500" },
+              [_c("vcl-facebook")],
+              1
+            )
+          ]
+        )
+      : _vm._e(),
+    _vm._v(" "),
     _c(
       "div",
       { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
@@ -28076,11 +28107,7 @@ var render = function() {
                 ],
                 staticClass:
                   "py-5 bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal",
-                attrs: {
-                  type: "text",
-                  placeholder: "TolulopeFaleye",
-                  id: "github-username"
-                },
+                attrs: { type: "text", placeholder: "TolulopeFaleye" },
                 domProps: { value: _vm.form.stalkee_name },
                 on: {
                   input: function($event) {
