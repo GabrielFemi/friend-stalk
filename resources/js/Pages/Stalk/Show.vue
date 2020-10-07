@@ -30,7 +30,7 @@ export default {
         VclFacebook
     },
     mounted() {
-        alert(this.$page.stalkee)
+        //
     }
 }
 </script>

@@ -4327,8 +4327,7 @@ __webpack_require__.r(__webpack_exports__);
     Welcome: _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__["default"],
     VclFacebook: vue_content_loading__WEBPACK_IMPORTED_MODULE_2___default.a
   },
-  mounted: function mounted() {
-    alert(this.$page.stalkee);
+  mounted: function mounted() {//
   }
 });
 

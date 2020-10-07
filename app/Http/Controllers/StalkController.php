@@ -41,7 +41,7 @@ class StalkController extends Controller
      * Display the specified resource.
      *
      * @param Request $request
-     * @return void
+     * @return \Inertia\Response
      */
     public function show(Request $request)
     {
