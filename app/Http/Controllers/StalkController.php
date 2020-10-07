@@ -45,7 +45,7 @@ class StalkController extends Controller
      */
     public function show(Request $request)
     {
-        return inertia()->render('Stalk/Show')->with('stalkee', $request->stalkee_name);
+        return inertia()->render('Stalk/Show')->with('stalkee_name', $request->stalkee_name);
     }
 
     /**
