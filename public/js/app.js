@@ -28101,7 +28101,7 @@ var render = function() {
                             })
                           ]
                         ),
-                        _vm._v(" What you do")
+                        _vm._v("Developer at Montage Tech")
                       ]
                     ),
                     _vm._v(" "),
@@ -28136,7 +28136,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", { staticClass: "pt-8 text-sm" }, [
                       _vm._v(
-                        "Totally optional short description about yourself, what you do and so on."
+                        'Currently seeing the movie - "Anabelle comes home ©2019"'
                       )
                     ]),
                     _vm._v(" "),
@@ -28488,7 +28488,11 @@ var render = function() {
                 ],
                 staticClass:
                   "py-5 bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal",
-                attrs: { type: "text", placeholder: "TolulopeFaleye" },
+                attrs: {
+                  type: "text",
+                  placeholder: "TolulopeFaleye",
+                  required: ""
+                },
                 domProps: { value: _vm.form.stalkee_name },
                 on: {
                   input: function($event) {
