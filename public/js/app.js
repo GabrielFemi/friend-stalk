@@ -24921,7 +24921,7 @@ var render = function() {
               "inertia-link",
               {
                 staticClass:
-                  "bg-green-500 hover:bg-green-700 text-white py-4 px-5 rounded font-bold",
+                  "bg-blue-500 hover:bg-blue-700 text-white py-4 px-5 rounded font-bold",
                 attrs: { href: "/stalk" }
               },
               [_vm._v("Start stalking 😄😄😄")]

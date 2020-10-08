@@ -14,7 +14,7 @@
                 It helps you to achieve that.
             </div>
             <div class="mt-6">
-                <inertia-link  href = "/stalk" class="bg-green-500 hover:bg-green-700 text-white py-4 px-5 rounded font-bold">Start stalking 😄😄😄</inertia-link>
+                <inertia-link  href = "/stalk" class="bg-blue-500 hover:bg-blue-700 text-white py-4 px-5 rounded font-bold">Start stalking 😄😄😄</inertia-link>
             </div>
         </div>
 
