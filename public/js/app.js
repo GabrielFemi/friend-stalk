@@ -4282,13 +4282,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -28067,14 +28060,6 @@ var render = function() {
                   "rounded-none lg:rounded-lg shadow-2xl hidden lg:block",
                 attrs: { src: "https://source.unsplash.com/MP0IUfwrn0A" }
               })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "absolute top-0 right-0 h-12 w-18 p-4" }, [
-              _c(
-                "button",
-                { staticClass: "js-change-theme focus:outline-none" },
-                [_vm._v("🌙")]
-              )
             ])
           ]
         )
