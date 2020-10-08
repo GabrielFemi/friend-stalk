@@ -24924,7 +24924,7 @@ var render = function() {
                   "bg-blue-500 hover:bg-blue-700 text-white py-4 px-5 rounded font-bold",
                 attrs: { href: "/stalk" }
               },
-              [_vm._v("Start stalking 😄😄😄")]
+              [_vm._v("Start stalking ➡")]
             )
           ],
           1

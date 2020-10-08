@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af6271f-81bf-4c11-8887-39d9944cc198" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/js/Stalk/StalkForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Stalk/StalkForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/Welcome.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +187,7 @@
       <workItem from="1601868621551" duration="1020000" />
       <workItem from="1601869853887" duration="15071000" />
       <workItem from="1602037933048" duration="5645000" />
-      <workItem from="1602142202894" duration="1396000" />
+      <workItem from="1602142202894" duration="1477000" />
     </task>
     <servers />
   </component>
@@ -209,10 +211,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="332" y="85" width="700" height="530" key="recent.locations.popup/0.0.1366.732@0.0.1366.732" timestamp="1601959789494" />
-    <state x="347" y="160" key="run.anything.popup" timestamp="1601984036466">
+    <state x="347" y="160" key="run.anything.popup" timestamp="1602143675851">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="347" y="160" key="run.anything.popup/0.0.1366.732@0.0.1366.732" timestamp="1601984036466" />
+    <state x="347" y="160" key="run.anything.popup/0.0.1366.732@0.0.1366.732" timestamp="1602143675851" />
     <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1602143590698">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
