@@ -7,7 +7,7 @@
             </div>
 
             <div class="mt-8 text-2xl">
-                Provide <code class = "">stalkee</code> details
+                Who do you wanna stalk?
             </div>
 
             <div class="mt-6 text-gray-500">
